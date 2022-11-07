@@ -1,0 +1,57 @@
+.wallpaperComp {
+    z-index: 1000;
+}
+
+.wallpaperContainers {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wallpapersTitle {
+    flex-basis: 100%;
+}
+
+.wallpaperItem {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10%;
+    position: relative;
+}
+
+.wallpaperBoxItem {
+    width: 70%;
+    border-radius: 10%;
+    position: relative;
+}
+
+.wallpaperContainer:hover {
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .wallpaperItem {
+        width: 200px;
+        border-radius: 15%;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wallpaperItem {
+        width: 170px;
+        border-radius: 18%;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .wallpaperItem {
+        width: 150px;
+        border-radius: 18%;
+    }
+}
